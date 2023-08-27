@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.article2 {
+    margin-left: 8rem;
+}
+
+form h3, article h4, main h2{
+    font-weight: bold;
+}
+
+button {
+    background-color: #1883ad;
+    color: #ffffff;
+}
+
+input, button {
+    height: 2.3rem;
+}
+
+main {
+    border: 1px #1883ad solid;
+    border-radius: 10px;
+    width: 35rem;
+}
+
+#resultado {
+    background-color: #04c344;
+    /* transition: background-color 1.2s ease; */
+}
+
+#resultado.invalid {
+    background-color: #ff6b6b; /* Alterando a cor para vermelho */
+}
